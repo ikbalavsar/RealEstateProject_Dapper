@@ -9742,11 +9742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ikbal\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+      "projectUniqueName": "C:\\Users\\ikbal\\Documents\\GitHub\\RealEstateProject_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
       "projectName": "RealEstate_Dapper_UI",
-      "projectPath": "C:\\Users\\ikbal\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+      "projectPath": "C:\\Users\\ikbal\\Documents\\GitHub\\RealEstateProject_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
       "packagesPath": "C:\\Users\\ikbal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ikbal\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\obj\\",
+      "outputPath": "C:\\Users\\ikbal\\Documents\\GitHub\\RealEstateProject_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
