@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+@*
+Bunların Her biri bizim partial viewımız. 
+Öncelikle ViewComponent ile bir class oluşturduktan sonra classın ismi ile özdeşleşen bir partial view klasörü oluşturuyoruz. 
+Oluşturduğumuz partial viewın içinde html kodlarımızı düzenliyoruz. 
+Daha sonra bu partial view ı sayfamıza render ediyoruz. (Bu sayfada olduğu gibi.)
+*@
+
+
+@await Component.InvokeAsync("_DefaultFeatureComponentPartial")
+@await Component.InvokeAsync("_DefaultHomePageProductList")
+@await Component.InvokeAsync("_DefaultWhoWeAreComponentPartial")
+@await Component.InvokeAsync("_DefaultServicesComponentPartial")
+@await Component.InvokeAsync("_DefaultProductListExploreCitiesComponentPartial")
+
+
