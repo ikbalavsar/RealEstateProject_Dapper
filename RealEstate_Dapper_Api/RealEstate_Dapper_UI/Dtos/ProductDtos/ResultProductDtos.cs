@@ -10,6 +10,11 @@
         public string city { get; set; }
         public string district { get; set; }
         public string categoryName { get; set; }
+        public string coverImg { get; set; }
+        public string type { get; set; }
+        public string address { get; set; }
+
+
         
 
     }

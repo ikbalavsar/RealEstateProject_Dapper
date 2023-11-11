@@ -8,5 +8,10 @@
         public string City { get; set; }
         public string District { get; set; }
         public string CategoryName { get; set; }
+        public string CoverImg { get; set; }
+        public string Type { get; set; }
+        public string Address { get; set; }
+        public string Description { get; set; }
+        public int EmployeeID { get; set; }
     }
 }
