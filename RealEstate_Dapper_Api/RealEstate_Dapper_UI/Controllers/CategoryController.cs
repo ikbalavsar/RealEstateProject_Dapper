@@ -17,7 +17,7 @@ namespace RealEstate_Dapper_UI.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient(); // bir istemci örneği oluşturuyoruz
-            var responseMessage = await client.GetAsync("https://localhost:44370/api/Categories"); // api urlimizeden verileri alıyoruz.
+            var responseMessage = await client.GetAsync("https://localhost:44370/api/Categories"); // api urlimizeden verileri alıyoruz. Listeleme işleminde GetASync kulanıyoruz
 
             if (responseMessage.IsSuccessStatusCode)
             {
@@ -43,7 +43,46 @@ namespace RealEstate_Dapper_UI.Controllers
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createCategoryDto);
             StringContent content = new StringContent(jsonData,Encoding.UTF8,"application/json");
-            var responseMessage = await client.PostAsync("https://localhost:44370/api/Categories", content); 
+            var responseMessage = await client.PostAsync("https://localhost:44370/api/Categories", content);  //Ekleme işleminde PostAsync kullanılır
+            if(responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.DeleteAsync($"https://localhost:44370/api/Categories/{id}");  // silme işleminde DeleteAsync kullanıyoruz
+            if(responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UpdateCategory(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync($"https://localhost:44370/api/Categories/{id}");
+            if(responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateCategoryDto>(jsonData);
+                return View(values);
+            }
+            return View(); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("https://localhost:44370/api/Categories/", stringContent);
             if(responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");

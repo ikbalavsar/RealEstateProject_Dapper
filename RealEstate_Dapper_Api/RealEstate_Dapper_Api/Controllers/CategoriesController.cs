@@ -30,7 +30,7 @@ namespace RealEstate_Dapper_Api.Controllers
             return Ok("Kategory başarılı bir şekilde eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")] // dışarıdan bir id parametresi alacağını belirtmiş oluyoruz
         public async Task<IActionResult> DeleteCategory(int id)
         {
             _categoryRepository.DeleteCategory(id);
