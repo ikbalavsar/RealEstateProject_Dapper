@@ -69,7 +69,7 @@ namespace RealEstate_Dapper_Api.Models.Repositories.EmployeeRepositories
 
         public async void UpdateEmployee(UpdateEmployeeDto employeeDto)
         {
-            string query = "Update Employee set Name = @name, Title = @title , Mail = @mail, PhoneNumber = @phoneNumber, ImageUrl = @imageUrl, Status = @status"  +
+            string query = "Update Employee set Name = @name, Title = @title , Mail = @mail, PhoneNumber = @phoneNumber, ImageUrl = @imageUrl, Status = @status "  +
                 "where EmployeeID=@employeeID";
             var parameters = new DynamicParameters();
             parameters.Add("@employeeID", employeeDto.EmployeeID);
