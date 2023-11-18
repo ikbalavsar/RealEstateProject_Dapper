@@ -9,7 +9,7 @@
         public string categoryId { get; set; }
         public string coverImg { get; set; }
         public string type { get; set; }
-        public string address { get; set; }
+        public string? address { get; set; }
 
     }
 }
