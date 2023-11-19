@@ -14,6 +14,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Dtos\BottomGridDtos\CreateBottomGridDto.cs" />
     <Compile Include="Dtos\BottomGridDtos\GetBottomGridDto.cs" />
     <Compile Include="Dtos\BottomGridDtos\ResultBottomGridDto.cs" />
