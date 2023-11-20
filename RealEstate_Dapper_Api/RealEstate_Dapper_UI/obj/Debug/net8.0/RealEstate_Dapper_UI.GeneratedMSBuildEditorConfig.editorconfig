@@ -78,6 +78,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Service/CreateServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDcmVhdGVTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Service/UpdateServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxVcGRhdGVTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutFooterComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0Rm9vdGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -172,6 +184,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Statistics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/WhoWeAre/CreateWhoWeAreDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvV2VBcmVcQ3JlYXRlV2hvV2VBcmVEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/WhoWeAre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvV2VBcmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/WhoWeAre/UpdateWhoWeAreDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvV2VBcmVcVXBkYXRlV2hvV2VBcmVEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/_ViewImports.cshtml]

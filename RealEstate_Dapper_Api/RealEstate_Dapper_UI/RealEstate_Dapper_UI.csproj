@@ -14,7 +14,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Controllers\StatisticsController.cs" />
+    <Compile Include="Controllers\WhoWeAreController.cs" />
     <Compile Include="Dtos\BottomGridDtos\CreateBottomGridDto.cs" />
     <Compile Include="Dtos\BottomGridDtos\GetBottomGridDto.cs" />
     <Compile Include="Dtos\BottomGridDtos\ResultBottomGridDto.cs" />
@@ -31,10 +33,13 @@
     <Compile Include="Dtos\ProductDtos\CreateProductDto.cs" />
     <Compile Include="Dtos\ProductDtos\ResultProductDtos.cs" />
     <Compile Include="Dtos\ProductDtos\UpdateProductDto.cs" />
+    <Compile Include="Dtos\ServiceDtos\CreateServiceDto.cs" />
     <Compile Include="Dtos\ServiceDtos\ResultServiceDto.cs" />
+    <Compile Include="Dtos\ServiceDtos\UpdateServiceDto.cs" />
     <Compile Include="Dtos\TestimonialDtos\ResultTestimonialDto.cs" />
-    <Compile Include="Dtos\WhoWeAreDtos\ResultServiceDto.cs" />
+    <Compile Include="Dtos\WhoWeAreDtos\CreateWhoWeAreDetailDto.cs" />
     <Compile Include="Dtos\WhoWeAreDtos\ResultWhoWeAreDetailDto.cs" />
+    <Compile Include="Dtos\WhoWeAreDtos\UpdateWhoWeAreDetailDto.cs" />
     <Compile Include="Models\ErrorViewModel.cs" />
     <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
     <Compile Include="obj\Debug\net8.0\RealEstate_Dapper_UI.AssemblyInfo.cs" />
