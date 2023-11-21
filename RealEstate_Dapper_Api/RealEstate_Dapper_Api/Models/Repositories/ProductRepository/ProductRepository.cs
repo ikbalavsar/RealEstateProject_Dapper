@@ -25,7 +25,7 @@ namespace RealEstate_Dapper_Api.Models.Repositories.ProductRepository
 
         public async Task<List<ResultProductWithCategoryDto>> GetAllProductWithCategoryAsync()
         {
-            string query = "Select ProductId,Title,Price,City,District,CategoryName,Address,CoverImg,Type,Description From Product inner join Category on Product.ProductCategory = Category.CategoryID";
+            string query = "Select ProductId,Title,Price,City,District,CategoryName,Address,CoverImg,Type,Description,DealOfTheDay From Product inner join Category on Product.ProductCategory = Category.CategoryID";
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<ResultProductWithCategoryDto>(query); //listeleme için QueryAsync kullanıyoruz. 

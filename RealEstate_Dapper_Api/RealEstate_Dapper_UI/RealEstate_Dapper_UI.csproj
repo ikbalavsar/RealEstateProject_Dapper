@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BottomGridController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PopularLocationController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
@@ -29,7 +31,10 @@
     <Compile Include="Dtos\EmployeeDtos\GetByIDEmployeeDto.cs" />
     <Compile Include="Dtos\EmployeeDtos\ResultEmployeeDto.cs" />
     <Compile Include="Dtos\EmployeeDtos\UpdateEmployeeDto.cs" />
+    <Compile Include="Dtos\PopularLocationDtos\CreatePopularLocationDto.cs" />
+    <Compile Include="Dtos\PopularLocationDtos\GetByIDPopularLocationDto.cs" />
     <Compile Include="Dtos\PopularLocationDtos\ResultPopularLocationDto.cs" />
+    <Compile Include="Dtos\PopularLocationDtos\UpdatePopularLocationDto.cs" />
     <Compile Include="Dtos\ProductDtos\CreateProductDto.cs" />
     <Compile Include="Dtos\ProductDtos\ResultProductDtos.cs" />
     <Compile Include="Dtos\ProductDtos\UpdateProductDto.cs" />

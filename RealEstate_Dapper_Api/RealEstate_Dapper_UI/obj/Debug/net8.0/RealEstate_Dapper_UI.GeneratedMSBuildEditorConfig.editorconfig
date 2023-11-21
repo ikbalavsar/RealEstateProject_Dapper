@@ -30,6 +30,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/BottomGrid/CreateBottomGrids.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm90dG9tR3JpZFxDcmVhdGVCb3R0b21Hcmlkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/BottomGrid/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm90dG9tR3JpZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/BottomGrid/UpdateBottomGrids.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm90dG9tR3JpZFxVcGRhdGVCb3R0b21Hcmlkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +76,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/PopularLocation/CreatePopularLocations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9wdWxhckxvY2F0aW9uXENyZWF0ZVBvcHVsYXJMb2NhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/PopularLocation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9wdWxhckxvY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/PopularLocation/UpdatePopularLocations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9wdWxhckxvY2F0aW9uXFVwZGF0ZVBvcHVsYXJMb2NhdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ikbal/Documents/GitHub/RealEstateProject_Dapper/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Product/CreateProduct.cshtml]
